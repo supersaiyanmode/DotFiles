@@ -1,7 +1,5 @@
 #!/bin/bash
 
-source variables.sh
-
 for program in */ ; do
     echo "Saving: " $program
     pushd $program > /dev/null

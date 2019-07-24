@@ -1,3 +1,3 @@
 #!/bin/bash
 
-PROGRAMS=('nvim')
+PROGRAMS=('nvim' 'tmux')

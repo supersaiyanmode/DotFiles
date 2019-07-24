@@ -2,6 +2,7 @@ https://github.com/ayu-theme/ayu-vim
 https://tpope.io/vim/surround.git
 https://github.com/vim-syntastic/syntastic.git
 https://github.com/vim-airline/vim-airline
+https://github.com/blueyed/vim-diminactive.git
 https://github.com/easymotion/vim-easymotion
 git://github.com/airblade/vim-gitgutter.git
 git://github.com/tmux-plugins/vim-tmux-focus-events.git

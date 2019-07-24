@@ -2,7 +2,7 @@
 
 source variables.sh
 
-for program in $PROGRAMS; do
+for program in */ ; do
     echo "Installing: " $program
     pushd $program > /dev/null
     $0 $program/install.sh

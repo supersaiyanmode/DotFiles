@@ -144,6 +144,6 @@ nnoremap <C-p>S :SyntasticCheck<CR> :SyntasticToggleMode<CR>
 "
 " Source local vim file.
 "
-if filereadable("~/.vimrc.local")
+if filereadable(expand("~/.vimrc.local"))
     source ~/.vimrc.local
 endif

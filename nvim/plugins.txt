@@ -4,3 +4,4 @@ https://github.com/vim-syntastic/syntastic.git
 https://github.com/vim-airline/vim-airline
 https://github.com/easymotion/vim-easymotion
 git://github.com/airblade/vim-gitgutter.git
+git://github.com/tmux-plugins/vim-tmux-focus-events.git

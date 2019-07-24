@@ -23,7 +23,7 @@ set undoreload=10000        " Maximum number lines to save for undo on a buffer 
 set viewoptions=folds,options,cursor,unix,slash " Better Unix / Windows compatibility
 set nobackup                " No ~ files.
 set nowritebackup           " No ~ files.
-
+set foldmethod=syntax       " Fold based on syntax
 " Always switch to the current file directory
 autocmd BufEnter * if bufname("") !~ "^\[A-Za-z0-9\]*://" | lcd %:p:h | endif
 

@@ -24,6 +24,7 @@ set viewoptions=folds,options,cursor,unix,slash " Better Unix / Windows compatib
 set nobackup                " No ~ files.
 set nowritebackup           " No ~ files.
 set foldmethod=syntax       " Fold based on syntax
+set foldlevel=99            " So that all folds are opened at startup.
 " Always switch to the current file directory
 autocmd BufEnter * if bufname("") !~ "^\[A-Za-z0-9\]*://" | lcd %:p:h | endif
 

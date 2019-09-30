@@ -16,7 +16,7 @@ ENABLE_CORRECTION="true"
 # Display red dots whilst waiting for completion.
 COMPLETION_WAITING_DOTS="true"
 
-plugins=(git zsh-navigation-tools thefuck z)
+plugins=(git zsh-navigation-tools z)
 
 source $ZSH/oh-my-zsh.sh
 

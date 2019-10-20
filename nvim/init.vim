@@ -42,6 +42,16 @@ augroup resCur
 augroup END
 
 
+" Strip trailing whitespace on save. https://unix.stackexchange.com/a/75438/20629
+function! <SID>StripTrailingWhitespaces()
+    let l = line(".")
+    let c = col(".")
+    %s/\s\+$//e
+    call cursor(l, c)
+endfun
+autocmd FileType c,cpp,java,go,php,javascript,puppet,python,rust,twig,xml,yml,perl,sql autocmd BufWritePre <buffer> :call <SID>StripTrailingWhitespaces()
+
+
 "
 "
 "  Vim User Interface

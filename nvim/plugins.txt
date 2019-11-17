@@ -4,4 +4,5 @@ https://github.com/vim-syntastic/syntastic.git
 https://github.com/vim-airline/vim-airline
 https://github.com/easymotion/vim-easymotion
 https://github.com/mhinz/vim-signify.git
-git://github.com/tmux-plugins/vim-tmux-focus-events.git
+https://github.com/tmux-plugins/vim-tmux-focus-events.git
+https://github.com/scrooloose/nerdtree.git

@@ -25,6 +25,7 @@ set nobackup                " No ~ files.
 set nowritebackup           " No ~ files.
 set foldmethod=syntax       " Fold based on syntax
 set foldlevel=99            " So that all folds are opened at startup.
+set wrap
 
 
 " http://vim.wikia.com/wiki/Restore_cursor_to_file_position_in_previous_editing_session

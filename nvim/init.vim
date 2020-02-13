@@ -150,6 +150,9 @@ let g:syntastic_check_on_wq = 0
 let g:syntastic_mode_map = {'mode':'passive'}
 nnoremap <C-p>S :SyntasticCheck<CR> :SyntasticToggleMode<CR>
 
+" NERDTree
+nnoremap <C-e> :NERDTreeToggle %<CR>
+
 
 "
 " Source local vim file.

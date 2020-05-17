@@ -14,6 +14,8 @@ function main {
 
     echo "Installing configuration.."
     cp zshrc $ZSHRC
+
+    source local-changes.sh
 }
 
 main

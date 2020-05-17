@@ -19,7 +19,7 @@ function get_all_plugin_urls {
 
 function main {
     echo "Saving all plugins.."
-    get_all_plugin_urls > plugins.txt
+    get_all_plugin_urls | sort > plugins.txt
 
     echo "Saving configuration.."
     cp $NVIM_BASE_DIR/init.vim init.vim

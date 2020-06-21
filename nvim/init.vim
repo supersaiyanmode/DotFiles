@@ -160,3 +160,17 @@ nnoremap <C-e> :NERDTreeToggle %<CR>
 if filereadable(expand("~/.vimrc.local"))
     source ~/.vimrc.local
 endif
+
+
+"
+" C++ specific settings
+"
+function FormatCPPBuffer()
+  if &modified && !empty(findfile('.clang-format', expand('%:p:h') . ';'))
+    let cursor_pos = getpos('.')
+    :%!clang-format --style=Google
+    call setpos('.', cursor_pos)
+  endif
+endfunction
+
+autocmd BufWritePre *.h,*.c,*.cc :call FormatCPPBuffer()

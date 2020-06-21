@@ -1,9 +1,9 @@
 https://github.com/ayu-theme/ayu-vim
-https://tpope.io/vim/surround.git
-https://github.com/vim-syntastic/syntastic.git
-https://github.com/vim-airline/vim-airline
 https://github.com/easymotion/vim-easymotion
 https://github.com/mhinz/vim-signify.git
-https://github.com/tmux-plugins/vim-tmux-focus-events.git
 https://github.com/preservim/nerdtree.git
+https://github.com/tmux-plugins/vim-tmux-focus-events.git
 https://github.com/tpope/vim-obsession.git
+https://github.com/vim-airline/vim-airline
+https://github.com/vim-syntastic/syntastic.git
+https://tpope.io/vim/surround.git

@@ -1,7 +1,9 @@
 #!/bin/bash
 
-ZSHRC="~/.zshrc"
+ZSHRC="$HOME/.zshrc"
 
 function main {
   cp $ZSHRC zshrc
 }
+
+main

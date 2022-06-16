@@ -30,3 +30,5 @@ export LESS='--mouse --wheel-lines=3'
 if [ -f ~/.zshrc.local ]; then
   source ~/.zshrc.local
 fi
+
+alias vim=nvim

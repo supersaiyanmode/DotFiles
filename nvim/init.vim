@@ -174,3 +174,10 @@ function FormatCPPBuffer()
 endfunction
 
 autocmd BufWritePre *.h,*.c,*.cc :call FormatCPPBuffer()
+
+" Highlight words.
+set updatetime=700
+augroup highlight_current_word
+  au!
+  au CursorHold * :exec 'match Search /\V\<' . expand('<cword>') . '\>/'
+augroup END

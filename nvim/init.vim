@@ -175,6 +175,20 @@ endfunction
 
 autocmd BufWritePre *.h,*.c,*.cc :call FormatCPPBuffer()
 
+
+"
+" Python specific settings
+"
+function FormatPyBuffer()
+  let cursor_pos = getpos('.')
+  if executable('yapf')
+    :%!yapf
+    call setpos('.', cursor_pos)
+  endif
+endfunction
+
+autocmd BufWritePre *.py :call FormatPyBuffer()
+
 " Highlight words.
 set updatetime=700
 augroup highlight_current_word

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SOLAAR_BASE_DIR=~/.config/nvim
+SOLAAR_BASE_DIR=~/.config/solaar
 
 function main {
     mkdir -p $SOLAAR_BASE_DIR

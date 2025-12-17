@@ -17,6 +17,14 @@
 ...
 ---
 - And:
+  - KeyIsDown: Middle Button
+  - KeyIsDown: Mouse Gesture Button
+- KeyPress:
+  - XF86_AudioMute
+  - click
+...
+---
+- And:
   - Test: hires_wheel_down
   - KeyIsDown: Mouse Gesture Button
 - KeyPress:
@@ -82,4 +90,8 @@
 - Rule:
   - Test: thumb_wheel_down
   - MouseScroll: [-1, 0]
+...
+---
+- Key: [Middle Button, released]
+- MouseClick: [middle, 1]
 ...
